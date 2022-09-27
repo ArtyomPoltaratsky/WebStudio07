@@ -1,5 +1,3 @@
-
-
 h1,
 h2,
 h3,
@@ -7,338 +5,218 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
 a{
     text-decoration: none;
 }
-
 ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-body{
+    padding-left: 0;
+    list-style: none;
     margin: 0;
 }
-
-.site{
+body{
+    margin: 0;
     width: 1600px;
 }
-.page-header{
+.conteiner{
+    display: flex;
+    justify-content: flex-start;
+}
+.page-body{
     height: 80px;
-    border: 1px solid #ECECEC;
-    display: flex;
-    align-items: center;
 }
-
-.container{
-    width: 1600px;
-    margin: 0 auto;
-    padding: 35px 16px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.logo{
+    margin-left: 215px;
+    justify-content: flex-start;
+    margin-top: 24px;
 }
-
 .web{
-    color:rgba(33, 150, 243, 1);
+    font-size: 26px;
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+}
+.stuidio{
+    font-weight: bold;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
-    line-height: 31px;
-}
-
-.studio{
     color: black;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
 }
-
-nav {
-    width: 20%;
-}
-.nav_menu {
+.ul-header{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav_2{
-    width: 35%;
-}
-
-.contacts{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.nav_menu a{
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    letter-spacing: 0.02em;
+    margin-left: 93px;
+    margin-top: 32px;
+}
+.ul-header-contact{
+    display: flex;
+    font-size: 14px;
+    margin-left: 335px;
+    margin-top: 32px;
+
+}
+.ul-header a{
     color: #212121;
+    margin-right: 55px;
 }
-
-.contacts a{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.02em;
+.ul-header-contact a{
     color: #757575;
+    margin-right: 50px;
 }
-
-.contacts a svg{
-    padding: 0px 10px 0px 0px;
-}
-
-.nav_menu a:hover, .contacts a:hover{
+.ul-header a:hover{
     color: #2196F3;
 }
-
-.hero {
-    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./img/hero.png);
+.ul-header-contact a:hover{
+    color: #2196F3;
+}
+.section1{
     width: 1600px;
     height: 600px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 90px;
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)) , url(./Img\ копія.png);
 }
-
-.hero p{
-    font-family: 'Roboto';
+.section1 h1{
+    color: white;
     font-weight: 900;
     font-size: 44px;
     text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    width: 700px;
+    padding-top: 200px;
 }
-
-.hero button{
+.section1 button{
+    color: white;
     margin-top: 40px;
     width: 200px;
     height: 50px;
     background-color: #2196F3;
     border: 1px solid #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    margin-left: 700px;
 }
-
-.hero a{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
+.ul-section2 li{
+    width: 270px;
+    height: 251px;
+    display: inline-block;
+    margin-left: 30px;
 }
-
-.hero button:hover{
-    width: 210px;
-    height: 60px;
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    transition: linear 0.3s;
-}
-
-.hero button:hover a{
-    color: #2196F3;
-    font-size: 18px;
-    transition: linear .3s;
-}
-
-.first_table{
-    width: 1600px;
+.div-img-section2{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-top: 94px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-
-.first_table tr{
-    display: flex;
-    justify-content: space-around;
+.img-ul-section2{
+    width: 70px;
+    height: 70px;
 }
-
-.first_table td div{
-    width: 270px;
-    height: 90px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
-
-.first_table td{
-    text-align: left;
-    width: 270px;
-    margin: 0 0 0 30px;
-}
-
-
-
-.first_table td h4{
-    font-family: 'Roboto';
+.ul-section2 h4{
+    margin-top: 30px;
     font-weight: 700;
     font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #212121;
 }
-
-.first_table td p{
-    margin-top: 10px;
-    font-family: 'Roboto';
+.ul-section2 p{
+    color: #757575;
     font-weight: 400;
     font-size: 14px;
-    letter-spacing: 0.03em;
-    color: #757575;
 }
-
-.f_h2{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin: 90px 0 50px;
+.ul-section2:first-child{
+    margin-left: 215px;
 }
-
-.photo_ul{
-    display: flex;
-    justify-content: center;
-    width: 1600px;
-}
-
-.photo_ul li{
-    margin-right: 30px ;
-}
-
-.photo_ul li:nth-child(3){
-    margin: 0;
-}
-
-.team{
-    margin-top: 90px;
-    background-color: rgba(245, 244, 250, 1);
-    padding-top: 90px;
-}
-
-.our_team{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    text-align: center;
-    margin-bottom: 90px;
-}
-
-.members{
+.section2 h2{
+    margin-top: 94px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
-
-.member{
-    width: 260px;
-    background-color: white;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    margin-bottom: 90px;
+.ul2-section2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 94px;
 }
-
-.member:not(:nth-child(4)){
+.ul2-section2 img{
     margin-right: 30px;
 }
-
-.member img{
-    width: 260px;
+.ul2-section2:first-child{
+    margin-left: 50px;
 }
-
-.member h4{
-    font-family: 'Roboto';
+.section3{
+    width: 1600px;
+    height: 648px;
+    background-color:#F5F4FA;
+}
+.section3 h2{
+    margin-top: 94px;
+    padding-top: 94px;
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+.ul-section3 li{
+    display: inline-block;
+    width: 270px;
+    height: 368px;
+    border: 1px solid white;
+    background-color: white;
+    margin-right: 30px;
+}
+.ul-section3 img{
+    width: 270px;
+    height: 260px;
+}
+.ul-section3 h4{
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin: 30px 0 10px;
+    margin: 30px 0 10px 0;
 }
-
-.member p{
-    margin-bottom: 30px;
-    font-family: 'Roboto';
+.ul-section3 p{
+    text-align: center;
     font-weight: 400;
     font-size: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: #757575;
 }
-
+.ul-section3{
+    margin-top: 94px; 
+    display: flex;
+    justify-content: center;
+}
 footer{
-    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+    padding-top: 60px;
 }
-
-footer{
-    padding: 60px 0 60px 215px;
+.logo-f{
+    margin-left: 215px;
 }
-
-footer li:not(:nth-child(1)){
-    margin-top: 9px;
-}
-
-footer .email{
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-footer .tel{
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-footer .place{
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-
-footer h2{
-    margin-bottom: 20px;
-}
-
-.web_2{
-    font-family: 'Roboto';
-    font-weight: 700;
+.web-1{
     font-size: 26px;
-    letter-spacing: 0.03em;
     color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+}
+.stuidio-1{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+.ul-footer li:first-child{
+    margin-top: 20px;
+    color: white;
+}
+.ul-footer li{
+    margin: 9px 0 0 215px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+}
+.misto-footer{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;   
 }
 
-.studio_2{
-    font-family: 'Roboto';
-    font-weight:700;
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
